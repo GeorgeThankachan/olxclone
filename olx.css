@@ -1,0 +1,368 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+    background-color: #f7f8f9;
+    box-shadow: 0 0 2px gray;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    padding: 6px;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    width: 1300px;
+    margin: auto;
+}
+
+.nav img {
+    width: 40px;
+    position: relative;
+    left: 30px;
+}
+
+.country-select {
+    float: left;
+    width: 250px;
+    margin-left: 50px;
+}
+
+.select i {
+    font-size: 15px;
+}
+
+.select {
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
+.searchbox input {
+    width: 500px;
+    border: 2px solid black;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-size: 15px;
+}
+
+.searchbox {
+    display: flex;
+    margin-left: 30px;
+    width: 500px;
+}
+
+.searchbox i {
+    background-color: black;
+    color: #fff;
+    padding: 14px;
+    font-size: 15px;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+}
+
+.search {
+    padding: 10px;
+    width: 800px;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 6px 0 0 6px;
+}
+
+.language {
+    display: flex;
+}
+
+#eng_tag {
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+#eng_tag {
+    background-color: #fff;
+
+    /* width: 130px; */
+}
+
+.display div {
+    display: block;
+}
+
+.message i {
+    font-size: 22px;
+    color: black;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.image img {
+    width: 33px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 8px;
+}
+
+.arrow {
+    position: relative;
+    width: 40px;
+    left: 40px;
+    top: 20px;
+    display: flex;
+}
+
+.selling button {
+    margin-left: 35px;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 7px;
+    border-top-color: #23e5db;
+    border-left-color: #ffce32;
+    border-right-color: #3a77ff;
+    border-bottom-color: #3a77ff;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: black;
+    display: flex;
+}
+
+.profile {
+    display: flex;
+}
+
+.subheader {
+    padding-top: 2px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    border: 2px solid rgb(204, 201, 201);
+    margin-top: 5px;
+}
+
+.list {
+    margin: auto;
+    margin-top: 10px;
+    list-style-type: none;
+    width: 1300px;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+
+
+}
+
+.list li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.list li a:hover {
+    color: lightblue;
+    transition: color 0.6s;
+}
+
+.list1 {
+    color: black;
+    font-weight: 500;
+}
+
+.firstrow {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1300px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.box img {
+    width: 250px;
+}
+
+.box {
+    border: 1px solid gray;
+    width: 260px;
+    height: 230px;
+    cursor: pointer;
+}
+
+.box a {
+    text-decoration: none;
+    color: black;
+}
+
+.box h2 {
+    padding: 5px 0 0 20px;
+}
+
+.box p {
+    padding: 0 0 10px 20px;
+    color: #6f8a94;
+    font-size: 14px;
+}
+
+.addres {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.addres p {
+    font-size: 11px;
+    margin: right 10px;
+    ;
+}
+
+.loadmore button {
+    margin: 50px auto;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    transition: all 0.1s;
+}
+
+.loadmore button:hover {
+    border: 4px solid black;
+
+}
+
+.moreproduct {
+    display: none;
+}
+
+.downloadimage {
+    background-color: #f7f8f9;
+}
+
+.downloads {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images {
+    width: 400px;
+}
+
+.text {
+    border-right: 2px solid #cacdca;
+}
+
+.text h1 {
+    padding: 20px 20px 10px 20px;
+    font-size: 35px;
+}
+
+.text p {
+    padding: 10px 20px 20px 20px;
+    font: 20px;
+}
+
+.downloadstore p {
+    padding: 20px 20px 20px 0;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.downloadstore {
+    padding-left: 30px;
+}
+
+.downloadstore img {
+    width: 146px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.mainfooter {
+    background-color: #ebeeef;
+    height: 185px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1300px;
+    margin: auto;
+    height: 180px;
+}
+
+.footerbox h2 {
+    font-size: 17px;
+    margin: 10px 0 15px 0;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.footerbox p {
+    margin: 8px 0 8px 0;
+    cursor: pointer;
+    font-size: 13px;
+    color: #6f8a94;
+}
+
+.footerbox i {
+
+    margin: 10px 0 15px 0;
+    cursor: pointer;
+    position: relative;
+    bottom: 20px;
+    color: #6f8a94;
+
+}
+
+.footerbox img {
+    width: 136px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.footerbox p:hover {
+    color: black;
+    transition: color 0.6s;
+}
+
+.a img {
+    position: relative;
+    margin-top: 10px;
+    width: 100px;
+    right: 20px;
+    top: 20px;
+}
+
+#olx {
+    padding-top: 23px;
+}
+
+#about {
+    padding-top: 23px;
+}
+
+.icon {
+    padding: 6px 8px;
+    border-radius: 45px;
+    border: 1px solid;
+    font-size: 10px;
+}
